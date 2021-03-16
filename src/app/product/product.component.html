@@ -1,0 +1,9 @@
+
+ <div class="alert alert-warning mt-2" role="alert">
+  {{product.name}}
+</div>
+
+<li *ngFor="let item of products">{{item.name}}</li>
+
+<input [(ngModel)]="username" (keyup.enter)="Console()">
+
